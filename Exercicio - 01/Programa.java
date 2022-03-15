@@ -12,18 +12,19 @@ public static void main(String[] args) {
 	   
 	        System.out.println("Nome: " + nome);
 	        System.out.println("Matricula: " + matricula);
+	        
+	        
+	        System.out.println((notafinal >= 6)? "Aprovado (X)Sim ()NÃ£o" : "Aprovado ()Sim (X)NÃ£o");
+	        
 	        System.out.println("Nota Final: " + notafinal);
-	        
-	        
-	        System.out.println((notafinal >= 6)? "Aprovado (X)Sim ()Não" : "Aprovado ()Sim (X)Não");
-	        
+		
 	    /*
-	     *	O que é o códio inteiro da linha 18
+	     *	O que Ã© o cÃ³dio inteiro da linha 18
 	     *	
 	        if (notafinal >= 6) {
-	            System.out.println("Aprovado (X)Sim ()Não");
+	            System.out.println("Aprovado (X)Sim ()NÃ£o");
 	        }else{
-	            System.out.println("Aprovado ()Sim (X)Não");
+	            System.out.println("Aprovado ()Sim (X)NÃ£o");
 	        }
 	     */
 
