@@ -1,0 +1,7 @@
+package br.edu.up.modelo;
+
+public class Grupo {
+	public String letra;
+	public int[] valores = new int[12];
+	
+}

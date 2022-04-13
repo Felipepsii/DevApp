@@ -1,0 +1,21 @@
+package br.edu.up;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		
+			
+	}
+	
+	public static Scanner getLeitor() throws FileNotFoundException {
+		File arquivo = new File("C:\\Users\\Aluno\\Desktop\\Aula-06\\Ex06\\src\\grupos-tabulados.txt");
+		Scanner leitor = new Scanner(arquivo);
+
+	}
+	
+}
